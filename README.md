@@ -1,6 +1,6 @@
 # MobileDetector.Core
 
-[![Build Status](https://travis-ci.org/breekmd/MobileDetector.Core.svg?branch=master)](https://travis-ci.org/breekmd/MobileDetector.Core)
+[![Coverage Status](https://coveralls.io/repos/github/breekmd/MobileDetector.Core/badge.svg?branch=)](https://coveralls.io/github/breekmd/MobileDetector.Core?branch=)
 
 Asp.Net Core package to detect whether requests are coming from a mobile platform and which platform is that (using the User-Agent header from the request)
 
