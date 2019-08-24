@@ -1,0 +1,188 @@
+{
+  "MobileDetector.Core.dll": {
+    "/Users/mihai/Projects/MobileDetector.Core/MobileDetector.Core/Services/MobileDetectorService.cs": {
+      "MobileDetector.Core.Services.MobileDetectorService": {
+        "System.Boolean MobileDetector.Core.Services.MobileDetectorService::IsMobile()": {
+          "Lines": {
+            "28": 6,
+            "29": 6,
+            "30": 6
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<MobileDetector.Core.Enums.MobilePlatform> MobileDetector.Core.Services.MobileDetectorService::GetPlatform()": {
+          "Lines": {
+            "33": 7,
+            "34": 7,
+            "35": 7
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<MobileDetector.Core.Enums.MobilePlatform> MobileDetector.Core.Services.MobileDetectorService::Get()": {
+          "Lines": {
+            "38": 13,
+            "39": 13,
+            "41": 13,
+            "42": 0,
+            "43": 0,
+            "46": 13,
+            "47": 13,
+            "48": 13,
+            "50": 13,
+            "52": 13,
+            "53": 10,
+            "54": 10,
+            "56": 10,
+            "58": 10,
+            "60": 10,
+            "61": 4,
+            "62": 4,
+            "64": 4,
+            "65": 4,
+            "66": 4,
+            "68": 0,
+            "70": 6,
+            "71": 3,
+            "72": 3,
+            "75": 3,
+            "76": 1,
+            "77": 1,
+            "80": 2,
+            "83": 3,
+            "84": 13
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 48,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 13
+            },
+            {
+              "Line": 52,
+              "Offset": 110,
+              "EndOffset": 115,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 10
+            },
+            {
+              "Line": 60,
+              "Offset": 153,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 64,
+              "Offset": 179,
+              "EndOffset": 181,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 64,
+              "Offset": 179,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 153,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            },
+            {
+              "Line": 70,
+              "Offset": 208,
+              "EndOffset": 210,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 3
+            },
+            {
+              "Line": 70,
+              "Offset": 208,
+              "EndOffset": 222,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 75,
+              "Offset": 251,
+              "EndOffset": 253,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 251,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 110,
+              "EndOffset": 276,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Nullable`1<MobileDetector.Core.Enums.MobilePlatform> MobileDetector.Core.Services.MobileDetectorService::<.ctor>b__3_0()": {
+          "Lines": {
+            "24": 52
+          },
+          "Branches": []
+        },
+        "System.Void MobileDetector.Core.Services.MobileDetectorService::.ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
+          "Lines": {
+            "14": 13,
+            "15": 13,
+            "16": 13,
+            "17": 13,
+            "18": 13,
+            "20": 13,
+            "21": 13,
+            "22": 13,
+            "25": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/mihai/Projects/MobileDetector.Core/MobileDetector.Core/Extensions/ServicesExtensions.cs": {
+      "MobileDetector.Core.Extensions.ServicesExtensions": {
+        "System.Void MobileDetector.Core.Extensions.ServicesExtensions::AddMobileDetector(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

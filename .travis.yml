@@ -3,5 +3,7 @@ mono: none
 dotnet: 2.1.502
 solution: MobileDetector.Core.sln
 script:
+  - dotnet add package coverlet.msbuild
   - dotnet restore
-  - dotnet test
+  - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  - csmacnz.Coveralls --opencover -i /MobileDetector.Core.Tests/coverage.opencover.xml --useRelativePaths
