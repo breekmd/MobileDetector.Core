@@ -17,4 +17,4 @@ bool IsMobile();
 MobilePlatform? GetPlatform();
 ```
 
-MobilePlatform enum has a few common platforms explicitly enumarated, however if it detects a mobile but can't parse the enum it will return ```MobilePlatform.Unmapped```
+MobilePlatform enum has a few common platforms explicitly enumarated, however if it detects a mobile platform but can't parse the enum it will return ```MobilePlatform.Unmapped```
