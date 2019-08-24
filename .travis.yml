@@ -1,7 +1,12 @@
 ﻿language: csharp
 mono: none
-dotnet: 2.1.502
 solution: MobileDetector.Core.sln
+addons:
+  snaps:
+  - name: dotnet-sdk
+    classic: true
+    channel: latest/beta
 script:
+  - sudo snap alias dotnet-sdk.dotnet dotnet
   - dotnet restore
   - dotnet test
