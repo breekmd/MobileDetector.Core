@@ -4,7 +4,7 @@ Asp.Net Core package to detect whether requests are coming from a mobile platfor
 
 Mostly based on http://detectmobilebrowsers.com/ 
 
-Nuget package: https://www.nuget.org/packages/MobileDetector.Core/1.0.0
+Nuget package: https://www.nuget.org/packages/MobileDetector.Core
 
 To make this available for injection add the following to ConfigureServices method in Startup.cs
 
