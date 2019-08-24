@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileDetector.Core.Tests",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73BE7931-946B-459F-AE18-83877C49A8F7}"
 	ProjectSection(SolutionItems) = preProject
-		.travis.yaml = .travis.yaml
+		.travis.yml = .travis.yml
 	EndProjectSection
 EndProject
 Global
