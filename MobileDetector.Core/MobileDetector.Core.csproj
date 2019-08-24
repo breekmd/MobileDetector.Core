@@ -7,6 +7,9 @@
     <Authors>breekmd</Authors>
     <Description>mobile platform detector for asp.net core</Description>
     <PackageId>MobileDetector.Core</PackageId>
+    <PackageLicenseUrl>https://github.com/breekmd/MobileDetector.Core/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>breekmd</Owners>
+    <PackageProjectUrl>https://github.com/breekmd/MobileDetector.Core</PackageProjectUrl>
   </PropertyGroup>
     
   <ItemGroup>
