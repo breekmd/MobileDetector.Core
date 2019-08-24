@@ -2,9 +2,8 @@
 mono: none
 dotnet: 2.1.502
 solution: MobileDetector.Core.sln
-install:
-  - dotnet tool install -g coveralls.net --version 1.0.0
 script:
+  - dotnet tool install -g coveralls.net --version 1.0.0 --tool-path tools
   - dotnet restore
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-  - csmacnz.Coveralls --opencover -i /MobileDetector.Core.Tests/coverage.opencover.xml --useRelativePaths
+  - .\tools\csmacnz.Coveralls --opencover -i /MobileDetector.Core.Tests/coverage.opencover.xml --useRelativePaths
