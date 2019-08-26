@@ -21,4 +21,8 @@
   <ItemGroup>
     <ProjectReference Include="..\MobileDetector.Core\MobileDetector.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="coverage.json" />
+    <None Remove="coverage.opencover.xml" />
+  </ItemGroup>
 </Project>
